@@ -1,0 +1,20 @@
+server:
+  contextPath: /test
+  port: 8181
+
+logging.file: logs/spring-boot-logging-ms01.log
+  
+#security:
+#  basic:
+#    enabled: false
+#  oauth2:
+#    resource:
+#      id: account-details
+#      jwt.keyUri: http://localhost:8181/oauth/token_key
+#      userInfoUri: ${targets.uaa}/userinfo
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+  
